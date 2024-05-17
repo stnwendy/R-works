@@ -1,8 +1,6 @@
 library(readxl)
 library(lmtest)
-require(tseries)
 library(tseries)
-library(aTSA)
 
 #import excel data
 raw_data <- read_excel("3rd year/1ST SEM/ELEC 03 Thesis Writing/Stationary_Pen.xlsx")
